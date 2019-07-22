@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="Parser">
+    <output-path>$PROJECT_DIR$/out/</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="App.Main" />
+        <option name="description" value="" />
+        <option name="height" value="155" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="Parser" />
+        <option name="vendor" value="Dmitri" />
+        <option name="version" value="" />
+        <option name="width" value="300" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="library" level="project" name="jsoup-1.11.3" />
+      <element id="library" level="project" name="poi-4.1.0" />
+      <element id="archive" name="Parser.jar">
+        <element id="module-output" name="Parser" />
+      </element>
+    </root>
+  </artifact>
+</component>
